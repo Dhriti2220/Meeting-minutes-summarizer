@@ -1,0 +1,25 @@
+# Web interface
+streamlit==1.29.0
+
+# Whisper for multilingual transcription
+openai-whisper==20230406
+
+# PyTorch backend for Whisper
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# NumPy & Pandas for processing
+numpy>=1.25.0
+pandas>=2.1.0
+
+# Date handling
+python-dateutil>=2.8.2
+
+# Gemini API for summarization
+genai==0.0.17  # or the latest version of the Gemini Python SDK
+
+# Optional: Transformers if you plan local summarization experiments
+transformers>=4.40.0
+
+#Video processing
+ffmpeg
